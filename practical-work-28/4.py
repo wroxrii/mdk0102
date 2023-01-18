@@ -1,2 +1,3 @@
-words = 'hello and bye'
-print({i: ord(i) for i in words})
+w = 'hello and bye'
+r = {x: ord(x) for x in w}
+print(r)

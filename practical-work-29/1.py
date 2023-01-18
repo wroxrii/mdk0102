@@ -1,3 +1,5 @@
-array = {item for item in input().split() if len(item) > 3}
-print(array, len(array), sep='\n')
 # там хижина изба машина и снова хижина машина или так
+n = input().split()
+arr = {x for x in n if len(x) > 3}
+print(arr)
+print(len(arr))

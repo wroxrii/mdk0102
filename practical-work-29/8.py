@@ -1,5 +1,7 @@
 n = int(input('Введите количесвто книг: '))
-array = [[item for item in input().split(': ')] for i in range(n)]
-dictionary = {k for k, v in array}
-
-print(dictionary)
+arr = [[x for x in input().split(': ')] for z in range(n)]
+# отличие в:
+# в 7 задании {k: v for...}
+# в 8 задании {k for...} ↓
+d = {k for k, v in arr}
+print(d)
