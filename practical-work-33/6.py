@@ -14,3 +14,8 @@ try:
     print('Почта успешно записана в файл email.txt!')
 except AttributeError:
     print('Почта долна содержать символ @')
+
+# Формат ввода 1
+# fN9neyandex.ru
+# Формат ввода 2
+# fN9ne@yande.ru
