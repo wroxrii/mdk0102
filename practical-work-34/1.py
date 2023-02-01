@@ -14,4 +14,4 @@ def critChance(chance):
     return True if choice(arr) else False
 
 
-print(critChance(50))
+print(critChance(10))
